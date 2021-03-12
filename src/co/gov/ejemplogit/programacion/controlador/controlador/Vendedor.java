@@ -14,6 +14,7 @@ import java.io.Serializable;
 public class Vendedor extends Venta implements Serializable{
     private double antiguedadVendedor;
     public String nombreVendedor;
+    public String prueba;
 
     public Vendedor(double antiguedadVendedor, String nombreVendedor, String nombreArticulo, String colorArticulo) {
         super(nombreArticulo, colorArticulo);
