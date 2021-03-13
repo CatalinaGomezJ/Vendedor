@@ -15,10 +15,14 @@ public class Vendedor extends Venta implements Serializable{
     private double antiguedadVendedor;
     public String nombreVendedor;
     private double unidadesVendidas;
+    public String prueba;
 
-    public Vendedor(double antiguedadVendedor, String nombreVendedor, String nombreArticulo, String colorArticulo) {
+    public Vendedor(double antiguedadVendedor, String nombreVendedor, String prueba, String nombreArticulo, String colorArticulo) {
         super(nombreArticulo, colorArticulo);
         this.antiguedadVendedor = antiguedadVendedor;
         this.nombreVendedor = nombreVendedor;
+        this.prueba = prueba;
     }
+
+    
 }
